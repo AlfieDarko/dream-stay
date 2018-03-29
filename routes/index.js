@@ -6,10 +6,6 @@ var acom = require('../models/accommodationsModel.js')
 /* GET home page. */
 router.get('/', function(req, res, next) {
 
-  console.log(houseData);
-  console.log(newHouse);
-
-
   res.render('index', {
     title: 'Team Awesome!!!!'
   });
