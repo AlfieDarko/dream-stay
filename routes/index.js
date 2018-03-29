@@ -51,7 +51,8 @@ router.get('/accommodations/all', function(req, res, next) {
       res.send(err);
     } else
       // responds with a json object of our database
-      res.json(houses)
+      // res.json(houses)
+      res.send(JSON.stringify(houses))
   });
 })
 
