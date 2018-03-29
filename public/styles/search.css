@@ -8,6 +8,12 @@ h1 {
   padding-bottom:20px;
 }
 
+input {
+  margin-top: 10px;
+  font-family: 'helvetica', sans-serif;
+  font-weight: 350;
+}
+
 #accomodation_page {
   position:absolute;
   width:100%;
@@ -28,8 +34,19 @@ h1 {
 }
 
 #filters {
+  text-align:center;
   min-height: 200px;
   background-color: #94618E;
+}
+
+#filters_title {
+  position:relative;
+  top: 50px;
+}
+
+#filters_form {
+  position:relative;
+  top: 50px;
 }
 
 .accomodation {
@@ -43,20 +60,41 @@ h1 {
   padding-top:20px;
   padding-bottom:20px;
   background-color:#F4DECB;
+  border-style:solid;
+  border-width:thin;
 }
 
 .accomodation > div {
+  margin-top:auto;
+  margin-bottom:auto;
   align-items:center;
   text-align:center;
 }
 
 .accomodation_image {
   width:80%;
+  border-style:solid;
+  border-width:thin;
+}
+
+.utility_symbol {
+  width:60px;
+}
+
+.inline_break {
+  width: 30px;
 }
 
 .details_button {
   width: 100px;
   height: 40px;
+  color: white;
+  background-color:#49274A;
+}
+
+#filters_button {
+  width: 200px;
+  height: 30px;
   color: white;
   background-color:#49274A;
 }
